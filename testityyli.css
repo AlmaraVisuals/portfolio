@@ -91,7 +91,6 @@ html {
 .topnav {
     overflow: hidden;
     background-color: transparent;
-    /* or whatever fits your background */
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -125,9 +124,7 @@ html {
 
 .homecolumn {
     flex: 0 0 auto;
-    /* Don't allow shrinking */
-    width: 450px;
-    /* Match .polaroid width */
+    width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,7 +139,6 @@ html {
 
 .polaroid {
     width: 100%;
-    /* Fixed width */
     height: auto;
     padding: 10px 10px 25px 10px;
     background: white;
@@ -164,7 +160,6 @@ html {
 .polaroid img {
     width: 100%;
     aspect-ratio: 5 / 3;
-    /* For example: 5 wide, 3 tall */
     object-fit: cover;
     display: block;
 }
@@ -180,9 +175,7 @@ html {
 
 .kuvacolumn {
     flex: 0 0 auto;
-    /* Prevents stretching */
     max-width: 25vw;
-    /* Adjust as needed */
     display: flex;
     flex-direction: column;
     align-items: center;
